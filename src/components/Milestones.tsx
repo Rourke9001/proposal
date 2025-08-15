@@ -21,19 +21,19 @@ const Milestones: React.FC<MilestonesProps> = ({ onNext }) => {
       title: "First Date 📍",
       image: "/assets/images/first-date.jpg",
       text: "You were nervous. I was too.",
-      detail: "But somehow, everything felt right."
+      detail: "But that was a BIG milkshake"
     },
     {
       title: "First Trip ✈️",
       image: "/assets/images/first-trip.jpg",
-      text: "Our adventure to [Place]",
+      text: "Our adventure to Portugal",
       detail: "Where we discovered we're perfect travel buddies."
     },
     {
-      title: "Our Inside Jokes 😂",
+      title: "Through Good Times 😂",
       image: "/assets/images/laughing.jpg",
-      text: "[Your inside joke]",
-      detail: "No one else gets it, but that's what makes it ours."
+      text: "You're the cheese to my provita.",
+      detail: "The noodles to my tunafish."
     },
     {
       title: "Through Tough Times 🌧️",

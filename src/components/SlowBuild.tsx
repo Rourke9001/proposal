@@ -15,19 +15,19 @@ const SlowBuild: React.FC<SlowBuildProps> = ({ onNext }) => (
         <p>Through everything...</p>
       </FadeIn>
       
-      <FadeIn delay={3}>
+      <FadeIn delay={2}>
         <p>we ended up here.</p>
       </FadeIn>
       
-      <FadeIn delay={4.5}>
+      <FadeIn delay={3.5}>
         <p>Right now.</p>
       </FadeIn>
       
-      <FadeIn delay={6}>
+      <FadeIn delay={4.5}>
         <p>In this moment.</p>
       </FadeIn>
       
-      <FadeIn delay={7.5}>
+      <FadeIn delay={6}>
         <button onClick={onNext} className="cta-button">
           Look Down 💍
         </button>

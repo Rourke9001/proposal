@@ -20,11 +20,11 @@ const Proposal: React.FC<ProposalProps> = ({ onYes }) => {
           <p>So I have a question...</p>
         </FadeIn>
         
-        <FadeIn delay={3}>
+        <FadeIn delay={2}>
           <p>The most important one yet.</p>
         </FadeIn>
         
-        <FadeIn delay={5} duration={2}>
+        <FadeIn delay={3} duration={2}>
           <h1 className="proposal-question">
             Will you marry me?
           </h1>
