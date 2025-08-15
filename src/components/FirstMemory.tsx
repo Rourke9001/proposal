@@ -15,9 +15,9 @@ const FirstMemory: React.FC<FirstMemoryProps> = ({ onNext }) => (
     <SlideIn delay={0.5} from="bottom">
       <div className="memory-content">
         <img src="/assets/images/where-we-met.jpg" alt="Where we met" />
-        <p>It was at [Location] on [Date]...</p>
+        <p>It was at the memorable  floor of C3 Hatfield Studios...</p>
         <p className="thought">My first thought: "Wow, she's incredible."</p>
-        <p className="message">Our first message: "Hey! I had such a great time..."</p>
+        <p className="message">(I had also forgotten toilet paper)</p>
       </div>
     </SlideIn>
 
