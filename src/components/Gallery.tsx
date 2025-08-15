@@ -2,6 +2,7 @@
 import React from 'react';
 import SlideIn from './animations/SlideIn';
 import FadeIn from './animations/FadeIn';
+import ProgressiveImage from './ProgressiveImage';
 
 interface GalleryProps {
   onNext: () => void;
@@ -27,7 +28,7 @@ const Gallery: React.FC<GalleryProps> = ({ onNext }) => {
         {images.map((img, index) => (
           <FadeIn key={index} delay={index * 0.1}>
             <div className="gallery-item">
-              <img src={img} alt={`Memory ${index + 1}`} />
+              <ProgressiveImage src={img} alt={`Memory ${index + 1}`} />
             </div>
           </FadeIn>
         ))}
